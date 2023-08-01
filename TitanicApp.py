@@ -76,7 +76,7 @@ def add_bg_from_local(image_file):
         unsafe_allow_html = True
     )
     
-background = add_bg_from_local("C:/Users/lEO/Downloads/magicpattern-grid-pattern-1689780611478.png")
+background = add_bg_from_local("magicpattern-grid-pattern-1689780611478.png")
 
 # STEP 1: Store pages inside session_state
 if 'page' not in st.session_state:
